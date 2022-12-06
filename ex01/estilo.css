@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: rgb(88, 182, 182);
+}
+
+img {
+    border-radius: 20px;
+    width: 250px;
+}
+div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0;
+}

@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(42, 177, 42), #ffff50, rgb(33, 92, 255), rgb(235, 231, 231));
+}
+
+header div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 34px;
+    color: rgb(2, 40, 5);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    height: 40px;
+}
+
+main nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 550px;
+}
+
+main a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(204, 214, 222);
+    letter-spacing: 1px;
+    font-size:34px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.95;
+    cursor: pointer;
+    background-image: radial-gradient(rgb(76, 91, 111), rgb(21, 21, 185), rgb(2, 0, 119));
+}
+
+main a:hover {
+    opacity: 1;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.produtoContainerData form {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+    width: 500px;
+}

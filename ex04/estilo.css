@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    margin: auto auto;
+    margin-top: 150px;
+    justify-content: space-between;
+    /* background: rgb(214, 210, 210); */
+}
+
+main div {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.card {
+    flex: 40%;
+    display: flex;
+    margin-top: 20px;
+    flex-flow: row wrap;
+    background: #f9f9f9;
+}
+
+.card div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: rgb(231, 225, 225);
+    border: 1px solid rgb(172, 159, 159);
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.card img {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+}
+
+.list {
+    flex: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background: #f9f9f9;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.list div {
+    margin-bottom: 15px;
+}
+
+.list a {
+    background-color: grey;
+    border-radius: 30px;
+    padding: 5px 10px;
+    opacity: 0.85;
+}
+.list a:hover {
+    opacity: 1;
+    border: 1.5px solid black;
+    font-weight: bold;
+}
