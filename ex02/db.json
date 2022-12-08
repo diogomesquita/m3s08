@@ -1,78 +1,49 @@
 {
-  "clientes": [
+  "produtos": [
     {
-      "id": 1,
-      "first_name": "Eamon"
-    }, {
-      "id": 2,
-      "first_name": "Paco"
-    }, {
-      "id": 3,
-      "first_name": "Idalia"
-    }, {
-      "id": 4,
-      "first_name": "Otho"
-    }, {
-      "id": 5,
-      "first_name": "Elbert"
-    }, {
-      "id": 6,
-      "first_name": "Nanete"
-    }, {
-      "id": 7,
-      "first_name": "Carri"
-    }, {
-      "id": 8,
-      "first_name": "Milly"
-    }, {
-      "id": 9,
-      "first_name": "Burty"
-    }, {
-      "id": 10,
-      "first_name": "Barbabas"
-    }
-  ],
-  "produto": [
-    {
-      "id": 1,
-      "size": "S",
-      "color": "Indigo"
-    }, {
-      "id": 2,
-      "size": "2XL",
-      "color": "Fuscia"
-    }, {
-      "id": 3,
-      "size": "S",
-      "color": "Pink"
-    }, {
-      "id": 4,
-      "size": "L",
-      "color": "Teal"
-    }, {
       "id": 5,
       "size": "XL",
       "color": "Turquoise"
-    }, {
+    },
+    {
       "id": 6,
       "size": "2XL",
       "color": "Maroon"
-    }, {
+    },
+    {
       "id": 7,
       "size": "M",
       "color": "Maroon"
-    }, {
+    },
+    {
       "id": 8,
       "size": "XS",
       "color": "Violet"
-    }, {
+    },
+    {
       "id": 9,
       "size": "3XL",
       "color": "Red"
-    }, {
+    },
+    {
       "id": 10,
       "size": "XL",
       "color": "Pink"
+    },
+    {
+      "size": "G",
+      "color": "Amarelo",
+      "id": 11
+    },
+    {
+      "color": "Rosa",
+      "size": "P",
+      "id": 12
+    },
+    {
+      "color": "Orange",
+      "size": "123",
+      "id": 13
     }
   ]
 }
