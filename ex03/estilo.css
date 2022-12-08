@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-decoration:underline;
+    margin-bottom: 0;
+}
+
+.chegaMais {
+    margin-bottom: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column  wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#butao {
+    background-color: rgb(209, 205, 205);
+    border-radius: 30px;
+    padding: 10px 15px;
+    opacity: .975;
+    cursor: pointer;
+}
+
+#butao:hover {
+    opacity: 1;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+#campoTexto {
+    flex: 70%;
+}
+
+#addTa {
+    flex: 78%
+}
+
+#x {
+    background-color: rgb(219, 10, 10);
+    font-weight:bolder;
+    opacity: .95;
+}

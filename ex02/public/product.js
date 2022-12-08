@@ -78,9 +78,6 @@ async function novoPost(bejetu) {
         },
         body: bejetu
     });
-
-    const data =  await response.json();
-    alert(data);
 }
 
 async function deleteItem() {

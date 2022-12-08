@@ -1,11 +1,6 @@
 {
   "produtos": [
     {
-      "id": 5,
-      "size": "XL",
-      "color": "Turquoise"
-    },
-    {
       "id": 6,
       "size": "2XL",
       "color": "Maroon"
@@ -44,6 +39,11 @@
       "color": "Orange",
       "size": "123",
       "id": 13
+    },
+    {
+      "color": "Azul",
+      "size": "GG",
+      "id": 14
     }
   ]
 }
